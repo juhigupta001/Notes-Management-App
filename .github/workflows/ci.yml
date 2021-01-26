@@ -40,7 +40,13 @@ jobs:
     
     # 4: run test command
     - name: Run test command
-      run: npm run test    
+      run: npm run test  
+      
+    # 4: Deployment
+    - name: Deployed to Heroku
+      run: npm run test 
+      
+        
 
 
     
